@@ -1,8 +1,8 @@
 // tailwind.config.js
 module.exports = {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx}', // Ensure these paths point to your pages and components
-    './components/**/*.{js,ts,jsx,tsx}',
+    './app/pages/**/*.{js,ts,jsx,tsx}', // Ensure these paths point to your pages and components
+    './app/components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
     extend: {
